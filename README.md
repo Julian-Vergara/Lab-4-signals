@@ -211,22 +211,27 @@ Para poder determinar mejor las funciones del programa se hicioenron dos medicio
 ![Interfaz pyton](1m.jpeg)
 Al cargar los datos, el código identifica los valores que superan un umbral específico correspondiente a los segmentos R de la actividad eléctrica del corazón. Estos picos detectados se resaltan con un punto rojo en la gráfica, lo que permite visualizar claramente los momentos en los que se registra la actividad cardíaca significativa..
 ![Interfaz pyton](1s.jpeg)
+
 En esta gráfica de la Transformada Wavelet Continua usando la wavelet de Morlet para una señal de 1 minuto, se observan patrones periódicos claros, con picos de alta intensidad (en rojo) distribuidos a lo largo del tiempo y concentrados entre las escalas 5 y 20. Estos picos indican actividad regular, probablemente de los latidos cardíacos. La periodicidad marcada sugiere un ritmo estable, con variaciones de menor magnitud respecto a la muestra de 5 minutos, lo cual es consistente con un análisis a corto plazo.
 ![Interfaz pyton](1r.jpeg)
+
 
 En un análisis de la variabilidad de la frecuencia cardíaca (HRV) de una muestra de un minuto, se identificaron 61 picos. El intervalo promedio entre estos picos fue de 0.98 segundos, lo que corresponde a una frecuencia cardíaca aproximada de 61 latidos por minuto. La desviación estándar de los intervalos R-R (SDNN) fue de 0.08 segundos, indicando una variabilidad moderada en la frecuencia cardíaca. El RMSSD, con un valor de 0.08 segundos, sugiere una notable actividad parasimpática, reflejando un estado de relajación del sistema nervioso. Finalmente, el pNN50 fue del 46.67%, lo que indica una alta variabilidad en los intervalos y sugiere una buena capacidad del corazón de adaptación.
 #### 5 minutos
 ![Interfaz pyton](5m.jpeg)
 ![Interfaz pyton](5s.jpeg)
+
 La gráfica muestra la Transformada Wavelet Morlet para analizar una señal cardíaca de 5 minutos. Los colores indican la potencia de la señal en distintas escalas: tonos cálidos (amarillo y rojo) reflejan mayor intensidad. Se observa actividad constante entre las escalas 5 y 20, lo que sugiere un ritmo cardíaco estable con variaciones leves en potencia. El análisis se enfoca en frecuencias bajas, relevantes para estudiar la actividad cardíaca, excluyendo ruidos innecesarios.
+
 ![Interfaz pyton](5r.jpeg)
 
 En un análisis de variabilidad de la frecuencia cardíaca (HVR) de una muestra de 5 minutos, se detectaron 350 picos. La media entre los picos fue de 0.86 segundos, lo que indica una frecuencia cardíaca normal de aproximadamente 70 latidos por minuto. La desviación estándar de los intervalos R-R (SDNN) fue de 0.07 segundos, lo que sugiere una baja variabilidad, lo que podría reflejar una respuesta limitada del sistema nervioso autónomo.
 
 El RMSSD, con un valor de 0.06 segundos, indica una actividad moderada del sistema parasimpático, sugiriendo un estado de relajación. Por último, el pNN50 fue del 14.33%, lo que muestra una cantidad moderada de variabilidad en los intervalos, indicando una buena adaptación del corazón a diferentes situaciones.
+
 ### Anexos
 #### Diagrama de flujo
-![Interfaz pyton](_Diagrama de flujo (1).png)
+![Interfaz pyton](_Diagrama )
 #### Calculos filtro
 ![Interfaz pyton](22.jpeg)
 ## Requisitos
