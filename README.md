@@ -209,13 +209,20 @@ El wavelet de Morlet es una herramienta matemática utilizada para analizar señ
 Para poder determinar mejor las funciones del programa se hicioenron dos medicionesuna de 5 minutos y otra de un solo minuto 
 #### 1 minuto
 ![Interfaz pyton](1m.jpeg)
+Al cargar los datos, el código identifica los valores que superan un umbral específico correspondiente a los segmentos R de la actividad eléctrica del corazón. Estos picos detectados se resaltan con un punto rojo en la gráfica, lo que permite visualizar claramente los momentos en los que se registra la actividad cardíaca significativa..
 ![Interfaz pyton](1s.jpeg)
+
 ![Interfaz pyton](1r.jpeg)
+En un análisis de la variabilidad de la frecuencia cardíaca (HRV) de una muestra de un minuto, se identificaron 61 picos. El intervalo promedio entre estos picos fue de 0.98 segundos, lo que corresponde a una frecuencia cardíaca aproximada de 61 latidos por minuto. La desviación estándar de los intervalos R-R (SDNN) fue de 0.08 segundos, indicando una variabilidad moderada en la frecuencia cardíaca. El RMSSD, con un valor de 0.08 segundos, sugiere una notable actividad parasimpática, reflejando un estado de relajación del sistema nervioso. Finalmente, el pNN50 fue del 46.67%, lo que indica una alta variabilidad en los intervalos y sugiere una buena capacidad del corazón de adaptación.
 #### 5 minutos
 ![Interfaz pyton](5m.jpeg)
+ASL cargar
 ![Interfaz pyton](5s.jpeg)
-![Interfaz pyton](5r.jpeg)
 
+![Interfaz pyton](5r.jpeg)
+En un análisis de variabilidad de la frecuencia cardíaca (HVR) de una muestra de 5 minutos, se detectaron 350 picos. La media entre los picos fue de 0.86 segundos, lo que indica una frecuencia cardíaca normal de aproximadamente 70 latidos por minuto. La desviación estándar de los intervalos R-R (SDNN) fue de 0.07 segundos, lo que sugiere una baja variabilidad, lo que podría reflejar una respuesta limitada del sistema nervioso autónomo.
+
+El RMSSD, con un valor de 0.06 segundos, indica una actividad moderada del sistema parasimpático, sugiriendo un estado de relajación. Por último, el pNN50 fue del 14.33%, lo que muestra una cantidad moderada de variabilidad en los intervalos, indicando una buena adaptación del corazón a diferentes situaciones.
 ### Anexos
 
 ## Requisitos
