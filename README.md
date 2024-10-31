@@ -231,7 +231,7 @@ El RMSSD, con un valor de 0.06 segundos, indica una actividad moderada del siste
 
 ### Anexos
 #### Diagrama de flujo
-![Interfaz pyton](_Diagrama )
+![Interfaz pyton](diagr.png)
 #### Calculos filtro
 ![Interfaz pyton](22.jpeg)
 ## Requisitos
