@@ -227,6 +227,12 @@ En un análisis de variabilidad de la frecuencia cardíaca (HVR) de una muestra 
 El RMSSD, con un valor de 0.06 segundos, indica una actividad moderada del sistema parasimpático, sugiriendo un estado de relajación. Por último, el pNN50 fue del 14.33%, lo que muestra una cantidad moderada de variabilidad en los intervalos, indicando una buena adaptación del corazón a diferentes situaciones.
 ### Anexos
 
+#### Diagrama de flujo
+![Interfaz pyton](.jpeg)
+#### Calculos filtro
+![Interfaz pyton](22.jpeg)
+
+
 ## Requisitos
 - Pyton 3.9.0 ó superior
 ### Libreias:
