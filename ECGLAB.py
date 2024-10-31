@@ -30,7 +30,7 @@ class principal(QMainWindow):
 
 
         self.fm = 100  # Frecuencia de muestreo (100 Hz)
-        self.duracion = 60
+        self.duracion = 300 #(segundos)
 
         # Crear eje X en tiempo (segundos)
         self.x = np.linspace(0, self.duracion, int(self.duracion * self.fm))
@@ -135,9 +135,6 @@ class principal(QMainWindow):
     def cargar_datos(self, nombre_archivo):
         try:
             tiempo, amplitud = np.loadtxt(nombre_archivo, delimiter=',', unpack=True, skiprows=3)
-            
-            # Atenuar valores entre -40 y 2060
-            amplitud = np.array([0 if -100 <= x <= 1500 else x for x in amplitud])
 
             # Detectar peaks en la señal atenuada
             peaks, _ = find_peaks(amplitud, height=self.umbral)
